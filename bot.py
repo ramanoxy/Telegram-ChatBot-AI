@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from google import genai
 
-BOT_TOKEN = '8531295585:AAEc59xsQAqICnlOVQiI_NVXo6RXwYTLBf8'
-GEMINI_API_KEY = 'AIzaSyBPP-bGJ6WCT4rndt4ifbYV_yjtVvzhP5w'
+BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
